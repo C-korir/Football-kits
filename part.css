@@ -1,0 +1,54 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the body */
+body {
+    background-color: yellowgreen;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading (h1) */
+h1 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style secondary headings (h2) */
+h2 {
+    margin: 20px;
+    font-size: 24px;
+}
+
+/* Style paragraphs (p) */
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Style images */
+img {
+    display: block; /* Centers the image within the content */
+    margin: 0 auto;
+    float:left;
+  justify-content: space-between;
+    max-width: 20%; /* Ensures the image is responsive and doesn't overflow */
+}
+
+/* Style links (a) */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: block; /* Adds spacing between links and the following content */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #0056b3;
+}
